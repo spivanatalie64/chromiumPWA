@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_appName__",
+  "short_name": "__MSG_appShortName__",
+  "description": "__MSG_appDescription__",
+  "homepage_url": "https://pwasforfirefox.filips.si/",
+  "version": "0.0.0",
+  "default_locale": "en",
+  "icons": {
+    "48": "images/addon-logo.svg",
+    "96": "images/addon-logo.svg",
+    "192": "images/addon-logo.svg"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["http://*/*", "https://*/*"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_icon": "images/browser-action.svg",
+    "default_popup": "sites/manage.html"
+  },
+  "permissions": [
+    "nativeMessaging",
+    "notifications",
+    "storage"
+  ],
+  "optional_permissions": [
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
