@@ -19,4 +19,27 @@ If you'd like, next actions I can take:
 - Convert browser.* usage to chrome.* or bundle webextension-polyfill into the service worker.
 - Create a GitHub PR with these changes on your fork and open an issue summarizing outstanding tasks.
 
+PR and Issue actions planned:
+
+- Branch: `chrome-scaffold` will be created from `main`.
+- PR: titled "Add Chrome extension scaffold and build tool" will be opened against `main`, containing a summary of the changes and next steps.
+- Issue: created titled "Finish Chrome extension: remaining tasks" listing outstanding work and test instructions.
+
+Tone & style:
+- PR and issue text will follow your professional tone and language style. Provide links to example issues or PRs you prefer and I will match their phrasing closely.
+
+Manifest branches plan:
+
+- `manifest-v2`: contains the original Firefox-focused extension (manifest v2 and Firefox-specific settings). This branch will be used to maintain the Firefox add-on version.
+- `manifest-v3`: contains the Chromium-compatible changes (Manifest V3, Chrome scaffold, build tooling). This branch will be used for Chrome support and ongoing Chrome-specific work.
+
+PR and Issue actions planned:
+
+- Branch: `chrome-scaffold` will be created from `main`.
+- PR: titled "Add Chrome extension scaffold and build tool" will be opened against `main`, containing a summary of the changes and next steps.
+- Issue: created titled "Finish Chrome extension: remaining tasks" listing outstanding work and test instructions.
+
+Tone & style:
+- PR and issue text will follow your professional tone and language style. Provide links to example issues or PRs you prefer and I will match their phrasing closely.
+
 Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
