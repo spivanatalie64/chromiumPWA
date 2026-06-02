@@ -119,3 +119,14 @@ Additional open source software will be downloaded and installed at runtime when
 * Installing the runtime on Windows will install [7-Zip](https://7-zip.org/) if it is not already installed. The 7-Zip project is made by Igor Pavlov and [licensed under the GNU LGPL license and others](https://7-zip.org/license.txt). This project is not affiliated with the 7-Zip project or its developers in any way.
 
 * Installing the runtime on any system will download the unmodified [Mozilla Firefox](https://www.mozilla.org/firefox/) browser and locally modify it. By using the runtime you agree to the Firefox [Terms of Use](https://www.mozilla.org/about/legal/terms/firefox/) and [Privacy Notice](https://www.mozilla.org/privacy/firefox/). Firefox is licensed under the Mozilla Public License 2.0. Firefox and the Firefox logo are trademarks of the Mozilla Foundation in the U.S. and other countries. This project is not affiliated with the Mozilla Foundation in any way.
+---
+
+## 🤖 Pullfrog AI Review
+
+This repository uses **Pullfrog AI** to automatically review pull requests.
+
+Pullfrog is an AI-powered code review agent that analyzes every PR for code quality,
+security issues, performance problems, and best practice violations. Reviews appear
+as inline PR comments and checks. Trigger manually by commenting `@pullfrog` on any PR.
+
+Powered by OpenRouter.
